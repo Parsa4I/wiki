@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 50vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+
+.savebtn {
+    width: 100px;
+    background-color: white;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    color: dodgerblue;
+}
+
+.savebtn:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.cancelbtn, .deletebtn {
+    width: 100px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+}
+
+.cancelbtn:hover, .deletebtn:hover {
+    background-color: red;
+    color: white;
+}
+
+.editbtn {
+    width: 100px;
+    background-color: white;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    color: yellowgreen;
+}
+
+.editbtn:hover {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.entry-num {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 6px;
+}
